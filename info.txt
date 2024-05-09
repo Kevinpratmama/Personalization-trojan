@@ -1,0 +1,12 @@
+Project Obliteration
+
+Project made by myself (@userwin64)
+
+Aim: To try to make trashy bat2exe malware "good"
+
+"good"
+
+See sources\about.txt for more info
+
+!PLEASE DO NOT PRANK ANYONE USING THIS VIRUS!
+If someone's host PC gets damaged because of my virus, I AM NOT RESPONSIBLE for that. You're the one responsible, I told you specifically not to send it as a "prank"!
