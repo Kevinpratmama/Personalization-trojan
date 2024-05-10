@@ -18,3 +18,6 @@ After restart and logging back in, hal.dll, winload.efi, ntoskrnl.exe, and winlo
 
 # How to fix?
 I haven't found a way to fix it, but I will soon.
+
+# Since it's open source, can I copy the source code?
+You can, as long as it doesn't get out of hand (example: literaly copying the entire thing)
