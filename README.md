@@ -24,4 +24,5 @@ You can, as long as it doesn't get out of hand (example: literaly copying the en
 
 # Credits
 -Enderman (@endermanch on YT) for inspiration (NoEscape.exe)
+
 -@BatcherCoderPMC (on discord) for helping me make the malware
