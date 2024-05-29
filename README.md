@@ -29,6 +29,6 @@ You can, as long as it doesn't get out of hand (example: literaly copying the en
 
 -@beanchz. (on discord) for the MBR delete script
 
--Redsmurf (softpedia) for screenmelt
+-weyh (on github) for screen melt
 
 -stsaz (GitHub) for fmedia
