@@ -28,5 +28,3 @@ You can, as long as it doesn't get out of hand (example: literaly copying the en
 -@BatcherCoderPMC (on discord) for helping me make the malware
 
 -@beanchz. (on discord) for the MBR delete script
-
--stsaz (GitHub) for fmedia
