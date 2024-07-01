@@ -1,4 +1,5 @@
 # Personalization-trojan
+WARNING! This malware is only for educational purposes. Please do not send these to your friends for malicious purposes. I am not responsible for any damages caused from this.
 ![Windows 8 1 x64-2024-05-09-19-43-34](https://github.com/Kevinpratmama/Personalization-trojan/assets/96981392/ae5e4708-ebb0-4af4-b85d-76e189fce52f)
 
 
