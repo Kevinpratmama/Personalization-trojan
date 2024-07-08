@@ -24,8 +24,6 @@ I haven't found a way to fix it, but I will soon.
 You can, as long as it doesn't get out of hand (example: literaly copying the entire thing)
 
 # Credits
--Enderman (@endermanch on YT) for inspiration (NoEscape.exe) and screenmelt
+-Enderman (@endermanch on YT) for inspiration (NoEscape.exe)
 
--@BatcherCoderPMC (on discord) for helping me make the malware
-
--@beanchz. (on discord) for the MBR delete script
+-@glungusdauysauiydasd. (on discord) for the MBR delete script and screenmelt
